@@ -1,0 +1,18 @@
+{
+  "name": "ai-planner",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI Study Planner workspace",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=study-planner-backend",
+    "dev:frontend": "npm run dev --workspace=study-planner-frontend",
+    "start:backend": "npm run start --workspace=study-planner-backend",
+    "build": "npm run build --workspace=study-planner-frontend",
+    "diagnose": "npm run diagnose --workspace=study-planner-backend",
+    "migrate": "npm run migrate --workspace=study-planner-backend"
+  }
+}
