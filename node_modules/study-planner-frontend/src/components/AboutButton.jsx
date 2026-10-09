@@ -5,12 +5,12 @@ import { useState, useRef, useEffect } from 'react';
 // ('') to hide that row automatically — nothing is required.
 // ---------------------------------------------------------------------
 const DEVELOPER = {
-  name: 'Your Name',
+  name: 'SARAJIT SARKAR',
   role: 'Full-Stack Developer',
-  instagram: 'yourhandle', // without the @
-  github: 'yourusername',
-  email: 'you@example.com',
-  website: '', // e.g. 'https://yourportfolio.com'
+  instagram: 'ims.sarkar', // without the @
+  github: 'sarajitsarkar',
+  email: 'sarajitsarkar60530@gmail.com',
+  website: 'https://protfolio2-xi.vercel.app/', // e.g. 'https://yourportfolio.com'
 };
 // ---------------------------------------------------------------------
 
